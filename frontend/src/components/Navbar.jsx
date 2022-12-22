@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='h-[120px] flex flex-row  w-full py-4 text-fuchsia-500 font-bold text-xl justify-evenly'>
+    <div className=' flex flex-row  w-full py-4 text-fuchsia-500 font-bold text-xl justify-evenly items-center'>
                 <div className='w-[20%]'>
                 <h1 className='hover:text-fuchsia-400 hover:cursor-pointer'>NAME</h1>
                 </div>
