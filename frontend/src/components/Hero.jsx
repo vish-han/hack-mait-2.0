@@ -3,13 +3,11 @@ import landingimage from '../assets/landingimage2.png'
 import MovingText from 'react-moving-text'
 const Hero = () => {
   return (
-    <div className='hero-section flex w-full justify-around'>
-        <div className='hero-image w-[60%]'>
-        <img src={landingimage} alt="" className='' />
-        </div>
-        <div className='text-part text-white flex flex-col justify-evenly  font-semibold'>
-                <div className="headline text-6xl">The only <span className='headline font-bold text-6xl text-fuchsia-500'>NFT Platform</span> where u can <span className='running-text'>
-                
+    <div className='hero-section flex w-full justify-evenly'>
+        <img src={landingimage} alt="" className='w-[341px] h-[91vh]' />
+        <div className='text-part text-white w-[600px] flex flex-col justify-evenly  font-semibold'>
+                <div className="headline text-5xl">The only <span className='headline font-bold text-5xl text-fuchsia-500'>NFT Platform</span> where u can <span className='running-text'>
+             
                     </span></div>
                 <div className="subheadline text-m font-normal">
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad sit repellat velit inventore, deserunt natus quod maxime nisi in dicta.
