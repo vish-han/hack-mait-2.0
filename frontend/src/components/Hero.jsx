@@ -1,5 +1,5 @@
 import React from 'react'
-import landingimage from '../assets/landingpage.png'
+import landingimage from '../assets/landingimage2.png'
 import MovingText from 'react-moving-text'
 const Hero = () => {
   return (

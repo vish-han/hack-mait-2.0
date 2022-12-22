@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App bg-[#000000] h-[100vh]">
+    <div className="App bg-[#101010] h-[100vh]">
       <Navbar/>
       <Hero/>
          </div>
