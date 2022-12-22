@@ -8,8 +8,11 @@ function App() {
 
   return (
     <div className="App bg-[#000000] h-[100vh]">
+
       <Navbar/>
+      <div className="bg-black h-[300vh] bg-[url('./assets/tiles.svg')]">
       <Hero/>
+      </div>
          </div>
   )
 }
